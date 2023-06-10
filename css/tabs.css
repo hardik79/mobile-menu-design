@@ -1,0 +1,750 @@
+/* tab change css */
+.menu {
+    width: 20% !important
+}
+
+/* end */
+/* phone screen */
+.divi {
+    width: 80% !important
+}
+
+.border-primary {
+    color: #1976D2;
+}
+
+.img-gray {
+    filter: grayscale(1);
+}
+
+.img-gray:hover {
+    filter: grayscale(0);
+}
+
+.border-secondary {
+    color: #D0D5DD;
+}
+
+/* font-size change */
+.font-siz {
+    font-size: 13px;
+}
+
+/* end */
+.para-color {
+    color: #667085 !important;
+}
+
+
+/* input:number box change css */
+.skin-2 .num-in {
+    background: #FFFFFF;
+    border: 1px solid rgb(189, 188, 188);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    float: left;
+}
+
+.skin-2 .num-in span {
+    width: 20%;
+    display: block;
+    height: 40px;
+    float: left;
+    position: relative;
+}
+
+.minus {
+    border-right: 1px solid rgb(189, 188, 188);
+}
+
+.plus {
+    border-left: 1px solid rgb(189, 188, 188);
+}
+
+.skin-2 .num-in span:before,
+.skin-2 .num-in span:after {
+    content: '';
+    position: absolute;
+    background-color: #667780;
+    height: 2px;
+    width: 10px;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -5px;
+}
+
+.skin-2 .num-in span.plus:after {
+    transform: rotate(90deg);
+}
+
+.skin-2 .num-in input {
+    float: left;
+    width: 60%;
+    height: 35px;
+    border: none;
+    text-align: center;
+}
+
+.select {
+    color: #98A2B3;
+}
+
+/* end */
+.scroll {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 789px;
+}
+
+::-webkit-scrollbar {
+    /* Width of vertical scroll bar */
+    width: 8px;
+    /* Height of horizontal scroll bar */
+    height: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c2c9d2;
+}
+
+.row a {
+    text-decoration: none;
+    color: black;
+}
+
+/* change backgroud color in tag box */
+.tag-box {
+    height: 126px;
+    width: 126px !important;
+    border: 2px solid white !important;
+    border-radius: 10px;
+    background-color: #f9fafb;
+}
+
+/* end */
+.tag-box:hover {
+    border: 2px solid #1976D2 !important;
+    background-color: #EDF5FC;
+}
+
+.tag-box i {
+    color: #98A2B3;
+    font-size: 35px !important;
+    margin-left: 43px !important;
+
+}
+
+.tag-box:hover i {
+    color: #1976D2;
+}
+
+.tag-box:hover i {
+    color: #1976D2;
+}
+
+/* bottom nav change */
+.bottom-nav {
+    left: 5px;
+    width: 97%;
+    background-color: #414A55;
+    position: absolute;
+    bottom: 5px;
+}
+
+/* end */
+.mr {
+    margin-right: -0.75rem !important;
+}
+
+.ml {
+    margin-left: -22px;
+}
+
+.ml1 {
+    margin-left: 48px;
+}
+
+.ml2 {
+    margin-left: -14px !important;
+}
+
+.rounded-bot {
+    border-bottom-left-radius: 2.25rem !important;
+    border-bottom-right-radius: 2.25rem !important;
+}
+
+.bottom-nav h4 {
+    font-size: 11px;
+    color: white;
+}
+
+.bottom-nav i {
+    height: 21px;
+    width: 21px;
+}
+
+/* change color-box */
+.color-box {
+    background-color: #414A55;
+    height: 55px;
+    width: 63px !important;
+}
+
+/* end */
+.color-box1 {
+    background-color: #414A55;
+    height: 55px;
+    width: 65px;
+}
+
+/* change color-btn */
+.color-btn {
+    width: 123px !important;
+    height: 55px !important;
+}
+.color-btn:hover .color-bor1{
+border: 1px solid;
+border-left: 0;
+}
+.color-btn:hover .color-bor{
+border: 1px solid;
+border-right: 0;
+}
+.me {
+    margin-right: 31px !important;
+    margin-left: -5px;
+
+}
+
+/* end */
+.chg-col {
+    background-color: #186dc1;
+    height: 55px;
+    width: 65px !important;
+    margin-left: -3px;
+}
+
+/* chanage height and width  */
+.tag-box1 {
+    height: 72px;
+    width: 72px !important;
+    border: 2px solid white !important;
+    border-radius: 10px;
+    background-color: #f9fafb;
+}
+
+/* new css for a tag box1 i */
+.tag-box1 i {
+    font-size: 17.96px !important;
+    color: #98A2B3 !important;
+}
+
+.tag-box1:hover {
+    border: 2px solid #1976D2 !important;
+    background-color: #EDF5FC;
+}
+
+.tag-box1:hover i {
+    color: #1976D2 !important;
+    /* margin-left: 49px !important; */
+}
+
+/* check mark set */
+.check {
+    margin-bottom: 7rem !important;
+    margin-top: 10px !important;
+    display: none;
+}
+
+/* end */
+/* change tab3 */
+/* font style set */
+.font-fam {
+    font-size: 40px;
+    margin-left: 39px;
+}
+
+/* end */
+.tag-box:hover .check {
+    display: inline;
+}
+
+.nav-btn {
+    position: absolute;
+    top: -43px;
+    /* left: 130px; */
+    background-color: #414A55;
+    border: 5px solid black;
+    border-radius: 100%;
+    /* padding: 10px; */
+    height: 5rem;
+    width: 5rem !important;
+    /* align-items: center; */
+    transform: translate(-50%, 1px);
+    left: 50%;
+}
+
+.nav-btn i {
+    margin-top: 21px;
+    margin-left: -11px;
+
+}
+
+/* New css */
+.uplode-border {
+    border: 2px dotted #186dc1;
+}
+
+/* uload file */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    /* width: 600px;
+    height: 260px; */
+    background-color: #ffffff;
+    padding: 10px 30px 40px;
+}
+
+.card h3 {
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.drop_box {
+    margin: 10px 0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px dotted #186dc1;
+    border-radius: 5px;
+}
+
+.drop_box h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #186dc1;
+}
+
+.drop_box p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #a3a3a3;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #005af0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+/*   
+  .btn:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #005af0;
+    padding: 10px 20px;
+    border: none;
+    outline: 1px solid #010101;
+  } */
+.form input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+/* progress bar */
+.progress {
+    height: 10px !important;
+    width:100%;
+}
+
+/* button group */
+.button-group {
+    position: sticky;
+    bottom: 0;
+}
+
+/* .b-gup {
+    width: 200px !important;
+} */
+.btn-bottom {
+    height: 50px;
+}
+
+.btn-pad {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+/* change bottm tab */
+.mtop {
+    margin-top: 39px !important;
+}
+
+/* phone img & bottom-nav div  */
+.reletive-warp {
+    position: relative;
+    max-width: 360px;
+    margin: 0px auto;
+}
+
+/* end */
+/* new css */
+.card-header .fa {
+    transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+    transform: rotate(360deg);
+}
+
+.card {
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+h5.card-header {
+    position: relative;
+}
+
+.card-header i.fa.fa-chevron-down.pull-right {
+    position: absolute;
+    right: 10px;
+}
+
+.activeIcon {
+    border: 2px solid #1976D2 !important;
+    background-color: #EDF5FC;
+}
+
+
+
+@media only screen and (min-device-width : 1200px) and (max-device-width : 1440px) {
+
+    /* body {
+        overflow: hidden;
+    } */
+    /* .divi{
+        overflow-y: hidden;
+    } */
+    /* .mtop {
+        margin-top: 10px !important;
+    } */
+    /* .menu{
+        width:25% !important
+    }
+    .divi{
+        width:75% !important
+    } */
+    .col-6 {
+        margin-left: -5px;
+    }
+
+    .tag-box {
+        height: 100px;
+        width: 100px !important;
+    }
+
+    /* .num {
+        width: 180px;
+    } */
+/* change color box  */
+    .color-box {
+        background-color: #414A55;
+        height: 50px !important;
+        width: 50px !important;
+    }
+/* end */
+    /* font style set */
+    .font-fam {
+        font-size: 40px;
+        margin-left: 26px;
+    }
+
+    /* end */
+    .color-box1 {
+        background-color: #414A55;
+        height: 50px;
+        width: 50px;
+    }
+
+    /* change color btn width */
+    .color-btn {
+        width: 97px !important;
+        height: 50px !important;
+    }
+    /* end */
+    .chg-col {
+        background-color: #186dc1;
+        height: 50px;
+        width: 50px !important;
+        margin-left: 4px;
+    }
+    /* change in me */
+    .me {
+        margin-right: 25px !important;
+    }
+    /* end */
+    .tag-box i {
+        margin-left: 30px !important;
+    }
+
+    /* check mark set */
+    .check {
+        margin-bottom: 5rem !important;
+    }
+
+    /* change */
+
+    /* .b-gup {
+        width: 122px !important;
+    } */
+    .btn-pad {
+        padding-right: 1.7rem !important;
+        padding-left: 1.7rem !important;
+    }
+
+    /* add this css */
+    /* .scroll {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 702px;
+    } */
+
+    /* body {
+        overflow: hidden;
+    } */
+
+    .mtop {
+        margin-top: 11px !important;
+    }
+
+    .pi {
+        margin-left: 2px;
+    }
+    /* add tag-box1 */
+    .tag-box1{
+        height: 50px;
+        width: 50px !important;
+    }
+}
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1199px) {
+    .col-6 {
+        width: 100% !important;
+        margin-left: 10px;
+    }
+
+    .fd {
+        flex-direction: column;
+    }
+
+    .color-btn {
+        width: 110px !important;
+        height: 55px !important;
+    }
+    .color-box{
+        width: 55px !important;
+        height: 55px !important;
+    }
+    .me{
+       margin-right: 29px !important;
+    }
+    .num {
+        width: 150px;
+    }
+
+    /* new add div */
+    .button-group {
+        position: relative;
+        /* bottom: 0; */
+    }
+
+    .scroll {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 702px;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .mtop {
+        margin-top: 11px !important;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
+    /* col-6 width  */
+    .tag-width{
+        width: 25% !important;
+    }
+    .menu {
+        width: 100% !important;
+    }
+    .num {
+        width: 83%;
+    }
+
+    .scroll {
+        overflow: visible !important;
+        height: 15%;
+    }
+
+    .bw {
+        margin-left: 50px;
+    }
+
+    .add-btn {
+        margin-top: 5px !important;
+    }
+
+    .color-btn {
+        width: 200px !important;
+        height: 100px !important;
+    }
+
+    .color-box {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .divi {
+        width: 100% !important;
+        margin-top: 30px !important;
+
+    }
+
+    .me {
+        margin-right: 53px !important;
+        margin-left: -5px;
+
+    }
+
+    /* new add div */
+    .button-group {
+        position: relative;
+        /* bottom: 0; */
+    }
+
+    .b-gup {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (min-device-width : 576px) and (max-device-width : 767px) {
+    .scroll {
+        overflow: visible !important;
+        height: 15%;
+    }
+
+    .divi {
+        width: 100% !important;
+        margin-top: 30px !important;
+
+    }
+
+    .menu {
+        width: 100% !important;
+    }
+
+    .deivce {
+        width: 100% !important;
+    }
+
+    /* new add div */
+    .button-group {
+        position: relative;
+        /* bottom: 0; */
+    }
+}
+
+/* change */
+@media only screen and (min-device-width : 320px) and (max-device-width : 575px) {
+    .menu {
+        width: 100% !important;
+    }
+
+    /* .col-6 {
+        width: 200px !important;
+
+    } */
+
+    /* .color-btn {
+        width: 174px !important;
+    } */
+
+    .scroll {
+        overflow: visible !important;
+        height: 15%;
+    }
+
+    .divi {
+        width: 100% !important;
+        margin-top: 30px !important;
+
+    }
+
+    .bottom-nav {
+        width: 100%;
+        left: 0%;
+    }
+
+    .mr {
+        margin-right: 0.25rem !important;
+    }
+    /* change value */
+    .nav-btn {
+        left: 50% !important;
+    }
+    /* end */
+    /* .fd {
+        flex-direction: column;
+    } */
+
+    /* new add div */
+    .button-group {
+        position: relative;
+        /* bottom: 0; */
+    }
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 425px) {
+     /* change value */
+     .nav-btn {
+        left: 50% !important;
+    }
+    /* end */
+
+    .cb {
+        width: 50% !important;
+    }
+
+    .fd {
+        flex-direction: row;
+    }
+
+    /* new add div */
+    .button-group {
+        position: relative;
+        /* bottom: 0; */
+    }
+}
